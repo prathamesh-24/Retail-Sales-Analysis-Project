@@ -12,7 +12,7 @@ It highlights how SQL queries can extract valuable business insights such as sal
 **Database Name:** `sql_project_p1`  
 **Table Name:** `retail_sales`
 
-### 🧱 Table Schema
+## 🧱 Table Schema
 
 | Column Name      | Data Type   | Description |
 |------------------|-------------|--------------|
@@ -58,7 +58,7 @@ Below are some SQL queries used to explore and summarize the dataset.
 
 ---
 
-### 🧾 1️⃣ Total Number of Sales
+## 🧾 1️⃣ Total Number of Sales
 To get the total number of sales transactions in the dataset:
 
 ```sql
