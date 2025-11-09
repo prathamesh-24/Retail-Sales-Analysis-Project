@@ -50,3 +50,18 @@ WHERE transactions_id IS NULL
    OR price_per_unit IS NULL
    OR cogs IS NULL
    OR total_sale IS NULL;
+
+## 📊 Data Exploration
+
+The goal of this section is to understand the dataset and get an overview of the data distribution, customer behavior, and product variety.  
+Below are some SQL queries used to explore and summarize the dataset.
+
+---
+
+### 🧾 1️⃣ Total Number of Sales
+To get the total number of sales transactions in the dataset:
+
+```sql
+SELECT COUNT(*) AS total_sales 
+FROM retail_sales;
+
