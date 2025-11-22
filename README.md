@@ -65,3 +65,13 @@ To get the total number of sales transactions in the dataset:
 SELECT COUNT(*) AS total_sales 
 FROM retail_sales;
 
+## 🧾 :two: Total Number of Sales
+To find how many distinct customers made purchases:
+
+```sql
+SELECT COUNT(DISTINCT customer_id) AS unique_customers
+FROM retail_sales;
+
+
+
+
