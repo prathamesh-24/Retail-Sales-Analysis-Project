@@ -49,7 +49,7 @@ WHERE transactions_id IS NULL
    OR quantity IS NULL
    OR price_per_unit IS NULL
    OR cogs IS NULL
-   OR total_sale IS NULL;
+   OR total_sale IS NULL; ```
 
 ## 📊 Data Exploration
 
@@ -63,14 +63,14 @@ To get the total number of sales transactions in the dataset:
 
 ```sql
 SELECT COUNT(*) AS total_sales 
-FROM retail_sales;
+FROM retail_sales; ```
 
 ## 🧾 :two: Total Number of Sales
 To find how many distinct customers made purchases:
 
 ```sql
 SELECT COUNT(DISTINCT customer_id) AS unique_customers
-FROM retail_sales;
+FROM retail_sales; ```
 
 
 
